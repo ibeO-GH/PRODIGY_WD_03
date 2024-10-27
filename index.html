@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div class="settings">
+        <label for="mode">Mode:</label>
+        <select id="mode">
+          <option value="multi">Multiplayer</option>
+          <option value="single">Single Player</option>
+        </select>
+        <label for="difficulty"> Difficulty:</label>
+        <select id="difficulty" disabled>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <label for="sound">Sound:</label>
+        <input type="checkbox" id="sound" checked />
+      </div>
+      <div class="board" id="board"></div>
+      <div class="status" id="status"></div>
+      <button id="restart">Restart game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
