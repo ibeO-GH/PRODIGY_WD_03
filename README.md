@@ -10,7 +10,7 @@ This project involves:
 
 • Ensuring a clean and modern design, using HTML, CSS, and JavaScript to enhance functionality.
 
-## GitHub Pages -
+## GitHub Pages - https://ibeo-gh.github.io/PRODIGY_WD_03/
 
 ## Screenshot of how it looks
 
